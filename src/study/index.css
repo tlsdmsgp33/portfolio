@@ -1,0 +1,28 @@
+/* study */
+#study {
+  background-color: #e3f1eb;
+}
+
+.study_box {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.study_img {
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+
+.study_name {
+  font-size: 20px;
+  font-weight: var(--weight-semi-bold);
+}
+
+.study_box > a {
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--color-black);
+}

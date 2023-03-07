@@ -1,0 +1,35 @@
+/* Home */
+#home {
+  height: 500px;
+  background: url("/public/img/intro.png") center/cover no-repeat;
+  padding: 40px;
+  padding-top: 100px;
+  text-align: center;
+  color: rgb(81, 55, 42);
+}
+
+.home_container {
+  margin-right: 50px;
+}
+
+.home_title {
+  text-decoration: none;
+}
+
+#contact_arrow {
+  width: 100px;
+  height: 100px;
+}
+
+.home_contact {
+  color: white;
+  font-size: var(--font-medium);
+  font-weight: var(--weight-bold);
+  font-style: fantasy;
+  margin-top: 40px;
+  padding: 8px 12px;
+}
+
+.home_contact:hover {
+  color: rgb(255, 118, 27);
+}
