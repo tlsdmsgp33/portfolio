@@ -8,15 +8,15 @@ function SkillsSection() {
     ["HTML", 80],
     ["CSS", 80],
     ["React", 70],
-    ["Spring", 30],
+    ["Spring", 75],
     ["JSP", 60],
-    ["Express", 70],
+    ["Express", 60],
   ];
 
   const skillRight = [
-    ["JAVA", 90],
-    ["C", 90],
-    ["Python", 60],
+    ["JAVA", 95],
+    ["C", 95],
+    ["Python", 90],
     ["JavaScript", 60],
     ["MySQL", 80],
     ["Android", 60],
@@ -34,7 +34,7 @@ function SkillsSection() {
                 <div className="skill" key={index}>
                   <div className="skill_description">
                     <span>{skill[0]}</span>
-                    <span>{skill[0]}%</span>
+                    <span>{skill[1]}%</span>
                   </div>
                   <div className="skill_bar">
                     <div
@@ -54,7 +54,7 @@ function SkillsSection() {
                   <div className="skill" key={index}>
                     <div className="skill_description">
                       <span>{skill[0]}</span>
-                      <span>{skill[0]}%</span>
+                      <span>{skill[1]}%</span>
                     </div>
                     <div className="skill_bar">
                       <div

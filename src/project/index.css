@@ -71,8 +71,12 @@
   margin: 0;
   display: flex;
   width: 500px;
+  align-items: center;
 }
 
+.project_info > a {
+  margin-left: 35px;
+}
 .project_info > h3 {
   margin: 0;
   width: 70px;
